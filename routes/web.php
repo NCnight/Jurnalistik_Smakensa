@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('Home', [HomeController::class, 'index'])->name('Home');
-Route::get('Category', [HomeController::class, 'category'])->name('Category');
-Route::get('Contact', [HomeController::class, 'contact'])->name('Contact');
-Route::get('SinglePost', [HomeController::class, 'singlepost'])->name('SinglePost');
-Route::get('Elements', [HomeController::class, 'elements'])->name('Elements');
+Route::get('Home', [HomeController::class, 'index'])->name('frond_end/Home');
+Route::get('Category', [HomeController::class, 'category'])->name('frond_end/Category');
+Route::get('Contact', [HomeController::class, 'contact'])->name('frond_end/Contact');
+Route::get('SinglePost', [HomeController::class, 'singlepost'])->name('frond_end/SinglePost');
+Route::get('Elements', [HomeController::class, 'elements'])->name('frond_end/Elements');

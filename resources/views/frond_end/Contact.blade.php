@@ -12,10 +12,10 @@
     <title>Newsbox - Modern Magazine &amp; Newspaper HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('img/core-img/favicon.ico') }}">
+    <link rel="icon" href="{{ asset('feasset/img/core-img/favicon.ico') }}">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="stylesheet" href="{{ asset('feasset/style.css') }}">
 
 </head>
 
@@ -40,7 +40,7 @@
                     <nav class="classy-navbar justify-content-between" id="newsboxNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+                        <a href="{{ asset('feasset/index.html') }}" class="nav-brand"><img src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -129,7 +129,7 @@
                                 <!-- Header Add Area -->
                                 <div class="header-add-area">
                                     <a href="#">
-                                       <img src="{{ asset('img/bg-img/add.png') }}" alt="">
+                                       <img src="{{ asset('feasset/img/bg-img/add.png') }}" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -196,12 +196,12 @@
                     <div class="contact-content mb-100">
 
                         <!-- Logo -->
-                        <a href="#" class="d-block mb-50"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="#" class="d-block mb-50"><img src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
 
                         <!-- Single Contact Info -->
                         <div class="single-contact-info d-flex align-items-center">
                             <div class="icon mr-15">
-                                <img src="{{ asset('img/core-img/map-pin.png') }}" alt="">
+                                <img src="{{ asset('feasset/img/core-img/map-pin.png') }}" alt="">
                             </div>
                             <p>1481 Creekside Lane Avila Beach, CA 931</p>
                         </div>
@@ -209,7 +209,7 @@
                         <!-- Single Contact Info -->
                         <div class="single-contact-info d-flex align-items-center">
                             <div class="icon mr-15">
-                                <img src="{{ asset('img/core-img/smartphone.png') }}" alt="">
+                                <img src="{{ asset('feasset/img/core-img/smartphone.png') }}" alt="">
                             </div>
                             <p>+53 345 7953 32453</p>
                         </div>
@@ -217,7 +217,7 @@
                         <!-- Single Contact Info -->
                         <div class="single-contact-info d-flex align-items-center">
                             <div class="icon mr-15">
-                                <img src="{{ asset('img/core-img/paper-plane.png') }}" alt="">
+                                <img src="{{ asset('feasset/img/core-img/paper-plane.png') }}" alt="">
                             </div>
                             <p>yourmail@gmail.com</p>
                         </div>
@@ -288,7 +288,7 @@
                     <!-- Add Widget -->
                     <div class="single-widget-area add-widget mb-30">
                         <a href="#">
-                                <img src="{{ asset('img/bg-img/add3.png') }}" alt="">
+                                <img src="{{ asset('feasset/img/bg-img/add3.png') }}" alt="">
                             </a>
                     </div>
 
@@ -300,7 +300,7 @@
                         <div class="single-blog-post d-flex style-4 mb-30">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/16.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/16.jpg') }}" alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -314,7 +314,7 @@
                         <div class="single-blog-post d-flex style-4 mb-30">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/17.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/17.jpg') }}" alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -328,7 +328,7 @@
                         <div class="single-blog-post d-flex style-4 mb-30">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/18.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/18.jpg') }}" alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -342,7 +342,7 @@
                         <div class="single-blog-post d-flex style-4 mb-30">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/19.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/19.jpg') }}" alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -356,7 +356,7 @@
                         <div class="single-blog-post d-flex style-4 mb-30">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/20.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/20.jpg') }}" alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -377,7 +377,7 @@
     <footer class="footer-area">
         <!-- Footer Logo -->
         <div class="footer-logo mb-100">
-            <a href="index.html"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+            <a href="index.html"><img src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
         </div>
         <!-- Footer Content -->
         <div class="container">
@@ -418,15 +418,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="{{ asset('js/jquery/jquery-2.2.4.min.js') }}"></script>
+    <script src="{{ asset('feasset/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="{{ asset('js/bootstrap/popper.min.js') }}"></script>
+    <script src="{{ asset('feasset/js/bootstrap/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('feasset/s/bootstrap/bootstrap.min.js') }}"></script>
     <!-- All Plugins js -->
-    <script src="{{ asset('js/plugins/plugins.js') }}"></script>
+    <script src="{{ asset('feasset/js/plugins/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="{{ asset('js/active.js') }}"></script>
+    <script src="{{ asset('feasset/js/active.js') }}"></script>
 </body>
 
 </html>
