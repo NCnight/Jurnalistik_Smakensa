@@ -12,10 +12,10 @@
     <title>Newsbox - Modern Magazine &amp; Newspaper HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('img/core-img/favicon.ico') }}">
+    <link rel="icon" href="{{ asset('feasset/img/core-img/favicon.ico') }}">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="stylesheet" href="{{ asset('feasset/style.css') }}">
 
 </head>
 <!-- Preloader -->
@@ -39,7 +39,7 @@
 
                     <!-- Nav brand -->
                     <a href="{{ asset('index.html" class="nav-brand') }}"><img
-                            src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+                            src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -128,7 +128,7 @@
                             <!-- Header Add Area -->
                             <div class="header-add-area">
                                 <a href="#">
-                                    <img src="{{ asset('img/bg-img/add.png') }}" alt="">
+                                    <img src="{{ asset('feasset/img/bg-img/add.png') }}" alt="">
                                 </a>
                             </div>
                         </div>
@@ -183,7 +183,8 @@
                             data-duration="1000ms">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail bg-overlay">
-                                <a href="#"><img src="{{ asset('img/bg-img/1.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/1.jpg') }}"
+                                        alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -200,7 +201,8 @@
                             data-duration="1000ms">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail bg-overlay">
-                                <a href="#"><img src="{{ asset('img/bg-img/2.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/2.jpg') }}"
+                                        alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -214,7 +216,8 @@
                             data-duration="1000ms">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail bg-overlay">
-                                <a href="#"><img src="{{ asset('img/bg-img/3.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/3.jpg') }}"
+                                        alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -238,14 +241,14 @@
                             data-duration="1000ms">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail bg-overlay">
-                                <a href="#"><img
-                                        src="{{ asset('img/bg-img/1.jpg') }}" alt=""></a>
-                                                                        </div>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/1.jpg') }}"
+                                        alt=""></a>
+                            </div>
 
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Traffic Problems in Time Square</a>
+                            <!-- Blog Content -->
+                            <div class="blog-content">
+                                <span class="post-date">June 20, 2018</span>
+                                <a href="#" class="post-title">Traffic Problems in Time Square</a>
                             </div>
                         </div>
                     </div>
@@ -256,7 +259,8 @@
                             data-duration="1000ms">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail bg-overlay">
-                                <a href="#"><img src="{{ asset('img/bg-img/2.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/2.jpg') }}"
+                                        alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -270,7 +274,8 @@
                             data-duration="1000ms">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail bg-overlay">
-                                <a href="#"><img src="{{ asset('img/bg-img/3.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/3.jpg') }}"
+                                        alt=""></a>
                             </div>
 
                             <!-- Blog Content -->
@@ -323,7 +328,7 @@
                                     <div class="single-blog-post style-2 mb-5">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/14.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/14.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -342,7 +347,7 @@
                                     <div class="single-blog-post style-2 mb-5">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/15.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/15.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -361,7 +366,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/16.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/16.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -379,7 +384,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/17.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/17.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -397,7 +402,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/18.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/18.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -415,7 +420,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/19.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/19.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -433,7 +438,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/20.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/20.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -451,7 +456,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/21.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/21.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -473,7 +478,7 @@
                                     <div class="single-blog-post style-2 mb-5">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/4.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/4.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -492,7 +497,7 @@
                                     <div class="single-blog-post style-2 mb-5">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/5.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/5.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -511,7 +516,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/16.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/16.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -529,7 +534,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/17.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/17.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -547,7 +552,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/18.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/18.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -565,7 +570,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/19.jp') }}g"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/19.jp') }}g"
                                                     alt=""></a>
                                         </div>
 
@@ -583,7 +588,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/20.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/20.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -601,7 +606,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/21.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/21.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -623,7 +628,7 @@
                                     <div class="single-blog-post style-2 mb-5">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/6.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/6.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -642,7 +647,7 @@
                                     <div class="single-blog-post style-2 mb-5">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/7.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/7.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -661,7 +666,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/16.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/16.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -679,7 +684,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/17.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/17.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -697,7 +702,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/18.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/18.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -715,7 +720,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/19.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/19.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -733,7 +738,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/20.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/20.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -751,7 +756,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/21.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/21.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -773,7 +778,7 @@
                                     <div class="single-blog-post style-2 mb-5">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/8.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/8.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -792,7 +797,7 @@
                                     <div class="single-blog-post style-2 mb-5">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/9.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/9.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -811,7 +816,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/16.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/16.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -829,7 +834,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/17.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/17.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -847,7 +852,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/18.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/18.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -865,7 +870,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/19.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/19.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -883,7 +888,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/20.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/20.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -901,7 +906,7 @@
                                     <div class="single-blog-post d-flex style-4 mb-30">
                                         <!-- Blog Thumbnail -->
                                         <div class="blog-thumbnail">
-                                            <a href="#"><img src="{{ asset('img/bg-img/21.jpg') }}"
+                                            <a href="#"><img src="{{ asset('feasset/img/bg-img/21.jpg') }}"
                                                     alt=""></a>
                                         </div>
 
@@ -938,7 +943,7 @@
                     <!-- Add Widget -->
                     <div class="single-widget-area add-widget mb-30">
                         <a href="#">
-                            <img src="{{ asset('img/bg-img/add3.png') }}" alt="">
+                            <img src="{{ asset('feasset/img/bg-img/add3.png') }}" alt="">
                         </a>
                     </div>
 
@@ -978,7 +983,7 @@
                         <div class="single-blog-post style-3">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/11.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/11.jpg') }}" alt=""></a>
                                 <a href="#" class="video-btn"><i class="fa fa-play"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -995,7 +1000,7 @@
                         <div class="single-blog-post style-3">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/12.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/12.jpg') }}" alt=""></a>
                                 <a href="#" class="video-btn"><i class="fa fa-play"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -1012,7 +1017,7 @@
                         <div class="single-blog-post style-3">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/13.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/13.jpg') }}" alt=""></a>
                                 <a href="#" class="video-btn"><i class="fa fa-play"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -1029,7 +1034,7 @@
                         <div class="single-blog-post style-3">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/11.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/11.jpg') }}" alt=""></a>
                                 <a href="#" class="video-btn"><i class="fa fa-play"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -1046,7 +1051,7 @@
                         <div class="single-blog-post style-3">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/12.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/12.jpg') }}" alt=""></a>
                                 <a href="#" class="video-btn"><i class="fa fa-play"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -1063,7 +1068,7 @@
                         <div class="single-blog-post style-3">
                             <!-- Blog Thumbnail -->
                             <div class="blog-thumbnail">
-                                <a href="#"><img src="{{ asset('img/bg-img/13.jpg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('feasset/img/bg-img/13.jpg') }}" alt=""></a>
                                 <a href="#" class="video-btn"><i class="fa fa-play"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -1094,7 +1099,7 @@
                 <div class="single-blog-post style-2 mb-5">
                     <!-- Blog Thumbnail -->
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="{{ asset('img/bg-img/4.jpg') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('feasset/img/bg-img/4.jpg') }}" alt=""></a>
                     </div>
 
                     <!-- Blog Content -->
@@ -1111,7 +1116,7 @@
                 <div class="single-blog-post style-2 mb-5">
                     <!-- Blog Thumbnail -->
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="{{ asset('img/bg-img/5.jpg') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('feasset/img/bg-img/5.jpg') }}" alt=""></a>
                     </div>
 
                     <!-- Blog Content -->
@@ -1129,7 +1134,7 @@
                 <div class="single-blog-post style-2 mb-5">
                     <!-- Blog Thumbnail -->
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="{{ asset('img/bg-img/6.jpg') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('feasset/img/bg-img/6.jpg') }}" alt=""></a>
                     </div>
 
                     <!-- Blog Content -->
@@ -1146,7 +1151,7 @@
                 <div class="single-blog-post style-2 mb-5">
                     <!-- Blog Thumbnail -->
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="{{ asset('img/bg-img/7.jpg') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('feasset/img/bg-img/7.jpg') }}" alt=""></a>
                     </div>
 
                     <!-- Blog Content -->
@@ -1163,7 +1168,7 @@
                 <div class="single-blog-post style-2 mb-5">
                     <!-- Blog Thumbnail -->
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="{{ asset('img/bg-img/8.jpg') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('feasset/img/bg-img/8.jpg') }}" alt=""></a>
                     </div>
 
                     <!-- Blog Content -->
@@ -1181,7 +1186,7 @@
                 <div class="single-blog-post style-2 mb-5">
                     <!-- Blog Thumbnail -->
                     <div class="blog-thumbnail">
-                        <a href="#"><img src="{{ asset('img/bg-img/9.jpg') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('feasset/img/bg-img/9.jpg') }}" alt=""></a>
                     </div>
 
                     <!-- Blog Content -->
@@ -1207,7 +1212,7 @@
 <!-- ##### Add Area Start ##### -->
 <div class="big-add-area mb-100">
     <div class="container-fluid">
-        <a href="#"><img src="{{ asset('mg/bg-img/add2.png') }}i" alt=""></a>
+        <a href="#"><img src="{{ asset('feasset/img/bg-img/add2.png') }}i" alt=""></a>
     </div>
 </div>
 <!-- ##### Add Area End ##### -->
@@ -1216,7 +1221,7 @@
 <footer class="footer-area">
     <!-- Footer Logo -->
     <div class="footer-logo mb-100">
-        <a href="index.html"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+        <a href="index.html"><img src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
     </div>
     <!-- Footer Content -->
     <div class="container">
@@ -1267,16 +1272,17 @@
         </div>
     </div>
 </footer>
-       <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="{{ asset('js/jquery/jquery-2.2.4.min.js') }}"></script>
-    <!-- Popper js -->
-    <script src="{{ asset('js/bootstrap/popper.min.js') }}"></script>
-    <!-- Bootstrap js -->
-    <script src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
-    <!-- All Plugins js -->
-    <script src="{{ asset('js/plugins/plugins.js') }}"></script>
-    <!-- Active js -->
-    <script src="{{ asset('js/active.js') }}"></script>
+<!-- ##### All Javascript Script ##### -->
+<!-- jQuery-2.2.4 js -->
+<script src="{{ asset('feasset/js/jquery/jquery-2.2.4.min.js') }}"></script>
+<!-- Popper js -->
+<script src="{{ asset('feasset/js/bootstrap/popper.min.js') }}"></script>
+<!-- Bootstrap js -->
+<script src="{{ asset('feasset/js/bootstrap/bootstrap.min.js') }}"></script>
+<!-- All Plugins js -->
+<script src="{{ asset('feasset/js/plugins/plugins.js') }}"></script>
+<!-- Active js -->
+<script src="{{ asset('feasset/js/active.js') }}"></script>
 </body>
+
 </html>

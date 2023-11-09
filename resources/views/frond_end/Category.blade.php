@@ -12,10 +12,10 @@
     <title>Newsbox - Modern Magazine &amp; Newspaper HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('img/core-img/favicon.ico') }}">
+    <link rel="icon" href="{{ asset('feasset/img/core-img/favicon.ico') }}">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="stylesheet" href="{{ asset('feasset/style.css') }}">
 
 </head>
 
@@ -40,7 +40,8 @@
                     <nav class="classy-navbar justify-content-between" id="newsboxNav">
 
                         <!-- Nav brand -->
-                        <a href="{{ asset('index.html') }}" class="nav-brand"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+                        <a href="{{ asset('feasset/index.html') }}" class="nav-brand"><img
+                                src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -107,7 +108,7 @@
                                         <ul class="dropdown">
                                             <li><a href="/Home">Home</a></li>
                                             <li><a href="/Category">Catagory</a></li>
-                                            <li><a href="SinglePost">Single Post</a></li>
+                                            <li><a href="/SinglePost">Single Post</a></li>
                                             <li><a href="/Contact">Contact</a></li>
                                             <li><a href="/Elements">Elements</a></li>
                                         </ul>
@@ -129,7 +130,7 @@
                                 <!-- Header Add Area -->
                                 <div class="header-add-area">
                                     <a href="#">
-                                       <img src="{{ asset('img/bg-img/add.png') }}" alt="">
+                                        <img src="{{ asset('feasset/img/bg-img/add.png') }}" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -155,9 +156,11 @@
                         </div>
                         <div id="breakingNewsTicker" class="ticker">
                             <ul>
-                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                        malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.</a></li>
                                 <li><a href="#">Welcome to Colorlib Family.</a></li>
-                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                        malesuada lorem maximus mauris scelerisque</a></li>
                             </ul>
                         </div>
                     </div>
@@ -176,7 +179,10 @@
                     <div class="post-content">
                         <p class="tag"><span>Entertainment</span></p>
                         <a href="#" class="post-title">Top 10 <br>Summer Festivals</a>
-                        <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur est pr etium ac. Mauris nec mauris tellus. </p>
+                        <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium
+                            turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis. Vestibulum
+                            venenatis iaculis diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur est pr
+                            etium ac. Mauris nec mauris tellus. </p>
                         <span class="post-date">June 20, 2018</span>
                     </div>
                 </div>
@@ -198,31 +204,43 @@
                             <h6>All the news</h6>
                             <nav>
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <a class="nav-item nav-link active" id="nav1" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-1" aria-selected="true">Latest</a>
-                                    <a class="nav-item nav-link" id="nav2" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2" aria-selected="false">Popular</a>
-                                    <a class="nav-item nav-link" id="nav3" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3" aria-selected="false">International</a>
-                                    <a class="nav-item nav-link" id="nav4" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4" aria-selected="false">Local</a>
+                                    <a class="nav-item nav-link active" id="nav1" data-toggle="tab"
+                                        href="#nav-1" role="tab" aria-controls="nav-1"
+                                        aria-selected="true">Latest</a>
+                                    <a class="nav-item nav-link" id="nav2" data-toggle="tab" href="#nav-2"
+                                        role="tab" aria-controls="nav-2" aria-selected="false">Popular</a>
+                                    <a class="nav-item nav-link" id="nav3" data-toggle="tab" href="#nav-3"
+                                        role="tab" aria-controls="nav-3" aria-selected="false">International</a>
+                                    <a class="nav-item nav-link" id="nav4" data-toggle="tab" href="#nav-4"
+                                        role="tab" aria-controls="nav-4" aria-selected="false">Local</a>
                                 </div>
                             </nav>
                         </div>
 
                         <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav1">
+                            <div class="tab-pane fade show active" id="nav-1" role="tabpanel"
+                                aria-labelledby="nav1">
                                 <div class="row">
                                     <!-- Single News Area -->
                                     <div class="col-12">
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/24.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/24.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author mb-30">By Michael Smith</a>
-                                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur est pr etium ac. Mauris nec mauris tellus. </p>
+                                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue
+                                                    condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin
+                                                    ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis
+                                                    diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur
+                                                    est pr etium ac. Mauris nec mauris tellus. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -232,13 +250,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/14.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/14.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -249,13 +269,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/15.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/15.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                                <a href="#" class="post-title">Rachel Sm ith breaks down while
+                                                    discussing border crisis</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -266,13 +288,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/4.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/4.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -283,13 +307,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/5.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/5.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                                <a href="#" class="post-title">Rachel Sm ith breaks down while
+                                                    discussing border crisis</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -304,15 +330,21 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/25.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/25.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author mb-30">By Michael Smith</a>
-                                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur est pr etium ac. Mauris nec mauris tellus. </p>
+                                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue
+                                                    condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin
+                                                    ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis
+                                                    diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur
+                                                    est pr etium ac. Mauris nec mauris tellus. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -322,13 +354,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/14.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/14.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -339,13 +373,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/15.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/15.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                                <a href="#" class="post-title">Rachel Sm ith breaks down while
+                                                    discussing border crisis</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -356,13 +392,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/4.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/4.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -373,13 +411,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/5.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/5.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                                <a href="#" class="post-title">Rachel Sm ith breaks down while
+                                                    discussing border crisis</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -394,15 +434,21 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/26.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/26.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author mb-30">By Michael Smith</a>
-                                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur est pr etium ac. Mauris nec mauris tellus. </p>
+                                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue
+                                                    condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin
+                                                    ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis
+                                                    diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur
+                                                    est pr etium ac. Mauris nec mauris tellus. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -412,13 +458,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/14.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/14.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -429,13 +477,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/15.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/15.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                                <a href="#" class="post-title">Rachel Sm ith breaks down while
+                                                    discussing border crisis</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -446,13 +496,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/4.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/4.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -463,13 +515,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/5.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/5.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                                <a href="#" class="post-title">Rachel Sm ith breaks down while
+                                                    discussing border crisis</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -484,15 +538,21 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/27.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/27.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author mb-30">By Michael Smith</a>
-                                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur est pr etium ac. Mauris nec mauris tellus. </p>
+                                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue
+                                                    condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin
+                                                    ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis
+                                                    diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur
+                                                    est pr etium ac. Mauris nec mauris tellus. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -502,13 +562,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/14.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/14.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -519,13 +581,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/15.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/15.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                                <a href="#" class="post-title">Rachel Sm ith breaks down while
+                                                    discussing border crisis</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -536,13 +600,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/4.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/4.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted
+                                                    to sabotage</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -553,13 +619,15 @@
                                         <div class="single-blog-post style-2 mb-5">
                                             <!-- Blog Thumbnail -->
                                             <div class="blog-thumbnail">
-                                                <a href="#"><img src="{{ asset('img/bg-img/5.jpg') }}" alt=""></a>
+                                                <a href="#"><img src="{{ asset('feasset/img/bg-img/5.jpg') }}"
+                                                        alt=""></a>
                                             </div>
 
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                                <a href="#" class="post-title">Rachel Sm ith breaks down while
+                                                    discussing border crisis</a>
                                                 <a href="#" class="post-author">By Michael Smith</a>
                                             </div>
                                         </div>
@@ -581,13 +649,14 @@
                                 <input type="email" name="nl-email" id="nlemail" placeholder="Your E-mail">
                                 <button type="submit" class="btn newsbox-btn w-100">Subscribe</button>
                             </form>
-                            <p class="mt-30">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh . volutpat lobortis.</p>
+                            <p class="mt-30">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue
+                                condimentum. Etiam pretium turpis eget nibh . volutpat lobortis.</p>
                         </div>
 
                         <!-- Add Widget -->
                         <div class="single-widget-area add-widget mb-30">
                             <a href="#">
-                                <img src="{{ asset('img/bg-img/add3.png') }}" alt="">
+                                <img src="{{ asset('feasset/img/bg-img/add3.png') }}" alt="">
                             </a>
                         </div>
 
@@ -599,13 +668,15 @@
                             <div class="single-blog-post d-flex style-4 mb-30">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="{{ asset('img/bg-img/16.jpg') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('feasset/img/bg-img/16.jpg') }}"
+                                            alt=""></a>
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
+                                    <a href="#" class="post-title">Nearly a quarter have no emergency
+                                        savings</a>
                                 </div>
                             </div>
 
@@ -613,13 +684,15 @@
                             <div class="single-blog-post d-flex style-4 mb-30">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="{{ asset('img/bg-img/17.jpg') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('feasset/img/bg-img/17.jpg') }}"
+                                            alt=""></a>
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
+                                    <a href="#" class="post-title">Nearly a quarter have no emergency
+                                        savings</a>
                                 </div>
                             </div>
 
@@ -627,13 +700,15 @@
                             <div class="single-blog-post d-flex style-4 mb-30">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="{{ asset('img/bg-img/18.jpg') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('feasset/img/bg-img/18.jpg') }}"
+                                            alt=""></a>
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
+                                    <a href="#" class="post-title">Top bitcoin exchange says over $30 million
+                                        stolen</a>
                                 </div>
                             </div>
 
@@ -641,13 +716,15 @@
                             <div class="single-blog-post d-flex style-4 mb-30">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="{{ asset('img/bg-img/19.jpg') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('feasset/img/bg-img/19.jpg') }}"
+                                            alt=""></a>
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
+                                    <a href="#" class="post-title">Top bitcoin exchange says over $30 million
+                                        stolen</a>
                                 </div>
                             </div>
 
@@ -655,13 +732,15 @@
                             <div class="single-blog-post d-flex style-4 mb-30">
                                 <!-- Blog Thumbnail -->
                                 <div class="blog-thumbnail">
-                                    <a href="#"><img src="{{ asset('img/bg-img/20.jpg') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('feasset/img/bg-img/20.jpg') }}"
+                                            alt=""></a>
                                 </div>
 
                                 <!-- Blog Content -->
                                 <div class="blog-content">
                                     <span class="post-date">June 20, 2018</span>
-                                    <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
+                                    <a href="#" class="post-title">Dow falls 287 points as trade war fears
+                                        escalate</a>
                                 </div>
                             </div>
                         </div>
@@ -676,7 +755,7 @@
     <!-- ##### Add Area Start ##### -->
     <div class="big-add-area">
         <div class="container-fluid">
-            <a href="#"><img src="{{ asset('img/bg-img/add4.png') }}" alt=""></a>
+            <a href="#"><img src="{{ asset('feasset/img/bg-img/add4.png') }}" alt=""></a>
         </div>
     </div>
     <!-- ##### Add Area End ##### -->
@@ -691,15 +770,18 @@
                     <div class="single-blog-post d-flex flex-wrap style-5 mb-30">
                         <!-- Blog Thumbnail -->
                         <div class="blog-thumbnail">
-                            <a href="#"><img src="{{ asset('img/bg-img/28.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('feasset/img/bg-img/28.jpg') }}"
+                                    alt=""></a>
                         </div>
 
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                            <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border
+                                crisis</a>
                             <a href="#" class="post-author">By Michael Smith</a>
-                            <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus.</p>
+                            <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam
+                                pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus.</p>
                         </div>
                     </div>
 
@@ -707,15 +789,18 @@
                     <div class="single-blog-post d-flex flex-wrap style-5 mb-30">
                         <!-- Blog Thumbnail -->
                         <div class="blog-thumbnail">
-                            <a href="#"><img src="{{ asset('img/bg-img/29.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('feasset/img/bg-img/29.jpg') }}"
+                                    alt=""></a>
                         </div>
 
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Romantic retreats: 11 resorts worth crossing the Pacific for</a>
+                            <a href="#" class="post-title">Romantic retreats: 11 resorts worth crossing the
+                                Pacific for</a>
                             <a href="#" class="post-author">By Michael Smith</a>
-                            <p>Lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis.</p>
+                            <p>Lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium
+                                turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis.</p>
                         </div>
                     </div>
 
@@ -723,15 +808,18 @@
                     <div class="single-blog-post d-flex flex-wrap style-5 mb-30">
                         <!-- Blog Thumbnail -->
                         <div class="blog-thumbnail">
-                            <a href="#"><img src="{{ asset('img/bg-img/30.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('feasset/img/bg-img/30.jpg') }}"
+                                    alt=""></a>
                         </div>
 
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Europe will hit US products with tariffs starting Friday</a>
+                            <a href="#" class="post-title">Europe will hit US products with tariffs starting
+                                Friday</a>
                             <a href="#" class="post-author">By Michael Smith</a>
-                            <p>Lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis.</p>
+                            <p>Lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium
+                                turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis.</p>
                         </div>
                     </div>
 
@@ -743,7 +831,8 @@
                     <div class="single-blog-post style-6 mb-30">
                         <!-- Blog Thumbnail -->
                         <div class="blog-thumbnail">
-                            <a href="#"><img src="{{ asset('img/bg-img/11.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('feasset/img/bg-img/11.jpg') }}"
+                                    alt=""></a>
                             <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
 
@@ -758,7 +847,8 @@
                     <div class="single-blog-post style-6 mb-30">
                         <!-- Blog Thumbnail -->
                         <div class="blog-thumbnail">
-                            <a href="#"><img src="{{ asset('img/bg-img/12.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('feasset/img/bg-img/12.jpg') }}"
+                                    alt=""></a>
                             <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
 
@@ -773,7 +863,8 @@
                     <div class="single-blog-post style-6 mb-30">
                         <!-- Blog Thumbnail -->
                         <div class="blog-thumbnail">
-                            <a href="#"><img src="{{ asset('img/bg-img/13.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('feasset/img/bg-img/13.jpg') }}"
+                                    alt=""></a>
                             <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
 
@@ -783,7 +874,7 @@
                             <p class="post-title">Viral Video</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -794,7 +885,7 @@
     <footer class="footer-area">
         <!-- Footer Logo -->
         <div class="footer-logo mb-100">
-            <a href="index.html"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+            <a href="index.html"><img src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
         </div>
         <!-- Footer Content -->
         <div class="container">
@@ -811,21 +902,36 @@
                         </div>
                         <!-- Social Info -->
                         <div class="footer-social-info">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="pinterest"><i
+                                    class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="facebook"><i
+                                    class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="twitter"><i
+                                    class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="dribbble"><i
+                                    class="fa fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="behance"><i
+                                    class="fa fa-behance" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="linkedin"><i
+                                    class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
 
-                        <p class="mb-15">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur est pr etium ac. Mauris nec mauris tellus. </p>
+                        <p class="mb-15">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue
+                            condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus
+                            volutpat lobortis. Vestibulum venenatis iaculis diam vitae lobortis. Donec tincidunt viverra
+                            elit, sed consectetur est pr etium ac. Mauris nec mauris tellus. </p>
 
                         <!-- Copywrite Text -->
                         <p class="copywrite-text"><a href="#">
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | This template is made with <i
+                                    class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                    target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
                     </div>
                 </div>
             </div>
@@ -835,15 +941,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="{{ asset('js/jquery/jquery-2.2.4.min.js') }}"></script>
+    <script src="{{ asset('feasset/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="{{ asset('js/bootstrap/popper.min.js') }}"></script>
+    <script src="{{ asset('feasset/js/bootstrap/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('feasset/js/bootstrap/bootstrap.min.js') }}"></script>
     <!-- All Plugins js -->
-    <script src="{{ asset('js/plugins/plugins.js') }}"></script>
+    <script src="{{ asset('feasset/js/plugins/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="{{ asset('js/active.js') }}"></script>
+    <script src="{{ asset('feasset/js/active.js') }}"></script>
 </body>
 
 </html>

@@ -12,10 +12,10 @@
     <title>Newsbox - Modern Magazine &amp; Newspaper HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('img/core-img/favicon.ico') }}">
+    <link rel="icon" href="{{ asset('feasset/img/core-img/favicon.ico') }}">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="stylesheet" href="{{ asset('feasset/style.css') }}">
 
 </head>
 
@@ -40,7 +40,7 @@
                     <nav class="classy-navbar justify-content-between" id="newsboxNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="{{ asset('feasset/index.html') }}" class="nav-brand"><img src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -129,7 +129,7 @@
                                 <!-- Header Add Area -->
                                 <div class="header-add-area">
                                     <a href="#">
-                                       <img src="{{ asset('img/bg-img/add.png') }}" alt="">
+                                       <img src="{{ asset('feasset/img/bg-img/add.png') }}" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -374,7 +374,7 @@
                             <div class="col-12 col-sm-6 col-lg-3">
                                 <div class="single-cool-fact mb-100">
                                     <div class="scf-icon">
-                                        <img src="{{ asset('img/core-img/idea.png') }}" alt="">
+                                        <img src="{{ asset('feasset/img/core-img/idea.png') }}" alt="">
                                     </div>
                                     <div class="scf-text">
                                         <h2><span class="counter">149</span></h2>
@@ -387,7 +387,7 @@
                             <div class="col-12 col-sm-6 col-lg-3">
                                 <div class="single-cool-fact mb-100">
                                     <div class="scf-icon">
-                                        <img src="{{ asset('img/core-img/list.png') }}" alt="">
+                                        <img src="{{ asset('feasset/img/core-img/list.png') }}" alt="">
                                     </div>
                                     <div class="scf-text">
                                         <h2><span class="counter">2391</span></h2>
@@ -400,7 +400,7 @@
                             <div class="col-12 col-sm-6 col-lg-3">
                                 <div class="single-cool-fact mb-100">
                                     <div class="scf-icon">
-                                        <img src="{{ asset('img/core-img/id-card.png') }}" alt="">
+                                        <img src="{{ asset('feasset/img/core-img/id-card.png') }}" alt="">
                                     </div>
                                     <div class="scf-text">
                                         <h2><span class="counter">245</span></h2>
@@ -413,7 +413,7 @@
                             <div class="col-12 col-sm-6 col-lg-3">
                                 <div class="single-cool-fact mb-100">
                                     <div class="scf-icon">
-                                        <img src="{{ asset('img/core-img/diamond.png') }}" alt="">
+                                        <img src="{{ asset('feasset/img/core-img/diamond.png') }}" alt="">
                                     </div>
                                     <div class="scf-text">
                                         <h2><span class="counter">128</span></h2>
@@ -440,7 +440,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="single-service-area mb-100">
                                 <div class="icon mb-30">
-                                    <img src="{{ asset('img/core-img/id-card2.png') }}" alt="">
+                                    <img src="{{ asset('feasset/img/core-img/id-card2.png') }}" alt="">
                                 </div>
                                 <div class="text">
                                     <h5>The Best Reporters</h5>
@@ -453,7 +453,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="single-service-area mb-100">
                                 <div class="icon mb-30">
-                                    <img src="{{ asset('img/core-img/file.png') }}" alt="">
+                                    <img src="{{ asset('feasset/img/core-img/file.png') }}" alt="">
                                 </div>
                                 <div class="text">
                                     <h5>Latest News</h5>
@@ -466,7 +466,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="single-service-area mb-100">
                                 <div class="icon mb-30">
-                                    <img src="{{ asset('img/core-img/archive.png') }}" alt="">
+                                    <img src="{{ asset('feasset/img/core-img/archive.png') }}" alt="">
                                 </div>
                                 <div class="text">
                                     <h5>Awarded Stories</h5>
@@ -486,7 +486,7 @@
     <footer class="footer-area">
         <!-- Footer Logo -->
         <div class="footer-logo mb-100">
-            <a href="index.html"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+            <a href="index.html"><img src="{{ asset('feasset/img/core-img/logo.png') }}" alt=""></a>
         </div>
         <!-- Footer Content -->
         <div class="container">
@@ -527,15 +527,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="{{ asset('js/jquery/jquery-2.2.4.min.js') }}"></script>
+    <script src="{{ asset('feasset/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="{{ asset('js/bootstrap/popper.min.js') }}"></script>
+    <script src="{{ asset('feasset/js/bootstrap/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('feasset/js/bootstrap/bootstrap.min.js') }}"></script>
     <!-- All Plugins js -->
-    <script src="{{ asset('js/plugins/plugins.js') }}"></script>
+    <script src="{{ asset('feasset/js/plugins/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="{{ asset('js/active.js') }}"></script>
+    <script src="{{ asset('feasset/js/active.js') }}"></script>
 </body>
 
 </html>
