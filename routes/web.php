@@ -23,5 +23,6 @@ Route::get('Category', [HomeController::class, 'category'])->name('frond_end/Cat
 Route::get('Contact', [HomeController::class, 'contact'])->name('frond_end/Contact');
 Route::get('SinglePost', [HomeController::class, 'singlepost'])->name('frond_end/SinglePost');
 Route::get('Elements', [HomeController::class, 'elements'])->name('frond_end/Elements');
-
-
+Route::get('dashboard', function () {
+    return view('dashboard');
+});

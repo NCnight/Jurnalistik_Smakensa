@@ -39,6 +39,10 @@
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
+<<<<<<< HEAD
+=======
+  <!-- Sidebar -->
+>>>>>>> 8fda1d7 (Reverted changes)
 <body class="g-sidenav-show  bg-gray-100">
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
     <div class="sidenav-header">
@@ -111,6 +115,7 @@
             <span class="nav-link-text ms-1">Billing</span>
           </a>
         </li>
+<<<<<<< HEAD
         <li class="nav-item">
           <a class="nav-link  " href="../pages/virtual-reality.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -237,6 +242,10 @@
       </div>
       <a class="btn bg-gradient-primary mt-3 w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree">Upgrade to pro</a>
     </div>
+=======
+      </ul>
+    </div>
+>>>>>>> 8fda1d7 (Reverted changes)
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
     <!-- Navbar -->
@@ -283,7 +292,11 @@
                   <a class="dropdown-item border-radius-md" href="javascript:;">
                     <div class="d-flex py-1">
                       <div class="my-auto">
+<<<<<<< HEAD
                         <img src="../beassets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
+=======
+                        <img src="{{ asset('beassets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
+>>>>>>> 8fda1d7 (Reverted changes)
                       </div>
                     </div>
                   </a>
@@ -294,7 +307,12 @@
         </div>
       </div>
     </nav>
+<<<<<<< HEAD
     <!-- End Navbar -->
+=======
+    <!-- End Sidebar -->
+    <!-- Main Container -->
+>>>>>>> 8fda1d7 (Reverted changes)
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
@@ -406,7 +424,11 @@
                   <div class="bg-gradient-primary border-radius-lg h-100">
                     <img src="{{ asset('beassets/img/shapes/waves-white.svg') }}" class="position-absolute h-100 w-50 top-0 d-lg-block d-none" alt="waves">
                     <div class="position-relative d-flex align-items-center justify-content-center h-100">
+<<<<<<< HEAD
                       <img class="w-100 position-relative z-index-2 pt-4" src="../beassets/img/illustrations/rocket-white.png" alt="rocket">
+=======
+                      <img class="w-100 position-relative z-index-2 pt-4" src="{{ asset('beassets/img/illustrations/rocket-white.png') }}" alt="rocket">
+>>>>>>> 8fda1d7 (Reverted changes)
                     </div>
                   </div>
                 </div>
