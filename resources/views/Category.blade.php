@@ -40,7 +40,7 @@
                     <nav class="classy-navbar justify-content-between" id="newsboxNav">
 
                         <!-- Nav brand -->
-                        <a href="{{ asset('index.html') }}" class="nav-brand"><img src={{ asset('img/core-img/logo.png') }}"" alt=""></a>
+                        <a href="{{ asset('index.html') }}" class="nav-brand"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
