@@ -18,5 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home', [HomeController::class, 'index'])->name('home');
-Route::get('about', [HomeController::class, 'about'])->name('about');
+Route::get('Home', [HomeController::class, 'index'])->name('Home');
+Route::get('Category', [HomeController::class, 'category'])->name('Category');
+Route::get('Contact', [HomeController::class, 'contact'])->name('Contact');
+Route::get('SinglePost', [HomeController::class, 'singlepost'])->name('SinglePost');
+Route::get('Elements', [HomeController::class, 'elements'])->name('Elements');
